@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Street Animal Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+</head>
+<body>
+
+<h1>🐾 Street Animal Population Dashboard</h1>
+
+<button onclick="loadData()">Load Animal Data</button>
+
+<table id="dataTable">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>City</th>
+            <th>Area</th>
+            <th>Animal</th>
+            <th>Count</th>
+            <th>Health</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<h2>Animal Count by Area</h2>
+<canvas id="areaChart" width="300" height="150"></canvas>
+<h2>Animal Hotspot Map</h2>
+<div id="map" style="width: 100%; height: 400px;"></div>
+<h2>Total Animals per Area</h2>
+<canvas id="areaChart" width="300" height="150"></canvas>
+
+
+
+
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</body>
+</html>

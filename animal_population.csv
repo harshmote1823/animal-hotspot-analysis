@@ -1,0 +1,4 @@
+date,city,area,latitude,longitude,animal,count,health,time,latitude,longitude
+2025-01-01,Indore,Vijay Nagar,22.7533,75.8937,Dog,20,Healthy,Evening,22.7196,75.8577
+2025-01-01,Indore,Palasia,22.7230,75.8839,Cow,12,Injured,Morning,22.7166,75.8572
+2025-01-02,Indore,Bhawarkua,22.7001,75.8903,Bird,35,Healthy,Evening,22.7567,75.8958
